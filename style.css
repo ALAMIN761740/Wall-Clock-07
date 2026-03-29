@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(227, 184, 102);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 70px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    
+    z-index:2 ;
+}
+
+.clock{
+    background-color: rgb(181, 216, 228);
+    width: 350px;
+    height:350px;
+    border-radius: 50%;
+    border: 5px solid rgb(132, 132, 192);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
